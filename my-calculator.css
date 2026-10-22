@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.js-num {
+    background-color: rgb(50,50,50);
+    color: white;
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.js-znak {
+    background-color: rgb(254, 160, 10);
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.js-clear {
+    background-color: rgb(50,50,50);
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.js-numbers {
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.My-name {
+    font-size: 25px;
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.container {
+    margin-left: 280px;
+    margin-top: 100px;
+}
+
+
+@media (max-width: 400px) {
+    body {
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .js-num {
+        background-color: rgb(50,50,50);
+        color: white;
+        height: 60px;
+        width: 60px;
+        border-radius: 100px;
+        border: none;
+        font-size: 22px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+
+    .js-znak {
+        background-color: rgb(254, 160, 10);
+        height: 60px;
+        width: 60px;
+        padding: 15px;
+        border-radius: 100px;
+        border: none;
+        color: white;
+        font-size: 30px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+
+    .js-clear {
+        background-color: rgb(50,50,50);
+        color: white;
+        height: 60px;
+        width: 60px;
+        border-radius: 100px;
+        border: none;
+        font-size: 16px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+
+    .js-numbers {
+        font-size: 48px;
+        color: white;
+        margin-top: 0;
+        margin-bottom: 15px;
+        width: 260px;
+    }
+
+    .My-name {
+        font-size: 18px;
+        color: white;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .container {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
